@@ -4,7 +4,7 @@ Continuidade do Modulo 8: aqui a regra da bandeira tarifaria e aplicada POR kWh
 (o defeito proposital do repositorio do Modulo 8 ja esta corrigido).
 """
 
-TARIFA_KWH = 0.95
+TARIFA_KWH = 1.05
 # Adicional por kWh conforme a bandeira tarifaria
 BANDEIRAS = {"verde": 0.0, "amarela": 0.02, "vermelha": 0.05}
 
