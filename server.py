@@ -23,7 +23,7 @@ PORTA = int(os.environ.get("PORT", "8080"))
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "LuzBairro/1.0"
+    server_version = "LuzBairro/1.1"
 
     def _json(self, status, payload):
         corpo = json.dumps(payload, ensure_ascii=False).encode("utf-8")
